@@ -1,0 +1,19 @@
+galaxy_info:
+  role_name: 'fix_debian10_grub_errors'
+  author: 'Johannes Kastl'
+  description: 'Fix "you need to configure grub" errors on fresh Debian10 installations on OpenStack'
+  company: 'B1 Systems GmbH'
+
+  license: 'BSD-3-Clause'
+
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Debian
+    versions:
+    - 10
+
+  galaxy_tags: []
+
+dependencies:
+  - { role: 'reboot' }
