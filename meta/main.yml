@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'fix_debian10_grub_errors'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Fix "you need to configure grub" errors on fresh Debian10 installations on OpenStack'
   company: 'B1 Systems GmbH'
