@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: 'johanneskastl.fix_debian10_grub_errors' }
+         - role: 'johanneskastl.fix_debian10_grub_errors'
 
 License
 -------
